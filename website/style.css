@@ -131,6 +131,14 @@ p.enlarge span {
   text-decoration: underline;
   font-weight: bold;
 }
+ul, li {
+  margin: 4;
+  padding: 4;
+  }
+.cloud {
+  margin: 0;
+  padding: 0;
+}
 
 /* .last {
 } */
@@ -164,7 +172,9 @@ a#pdf:hover {
 .job p {
   margin: 0.75em 0 3em 0;
 }
-
+.cloud-list {
+  border-bottom: 1px solid #5d6c6d;
+}
 .skills-list {
   border-bottom: 1px solid #5d6c6d;
 }

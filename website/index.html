@@ -10,7 +10,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css" media="all" />
-  <link rel="icon" href="./static/assets/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- <h3 class="home"><a href="./index.html" title="">Go Back Home</a></h3> -->
 </head>
 
@@ -39,10 +39,12 @@
           <div id="header">
             <center>
               <h1>Jonathan Warren</h1>
-              <h2>Cloud Solution & Security Enthusiast</h2><br>
-              <a href="mailto:jonmarshallwarren@gmail.com">jonmarshallwarren@gmail.com"</a>
+              <h2>Cloud Solution & Security Enthusiast</h2>
+              <a href="mailto:jonmarshallwarren@gmail.com">jonmarshallwarren@gmail.com</a>
               <h3>(801)800-0430</h3>
-              <a href="https://twitter.com/JWarren801"><ion-icon name="logo-twitter">twitter</ion-icon></a>
+              <a href="https://twitter.com/JWarren801" class="fa fa-twitter"></a>
+              <a href="https://www.linkedin.com/in/jonathan-warren-140497186/" class="fa fa-linkedin"></a>
+              <a href="https://jonlearnscloud.com/" class="fa fa-wordpress"></a>
           </div>
 
           <div class="yui-u">
@@ -105,16 +107,26 @@
           </div>
 		  
           <div class="section">
-            <div class="yui-u first">
-              <h2>Cloud Projects</h2>
+            <div class="cloud">
+              <div class="yui-u first">
+                <h2>Cloud Projects</h2>
+              </div>
+              <div class="yui-u">
+                <h2>Azure Sentinel Project </h2>
+              </div>
+              <li>Used a custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive Geo-location data.</li>
+              <li>Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude, state, and country)</li>
+              <li>Configure Custom Fields in Log Analytics Workspace to map Geo-location data in Azure Sentinel.</li>
             </div>
             <div class="yui-u">
-              <h2>Azure Sentinel Project </h2>
+              <h2>Serverless ChatBot Project </h2>
             </div>
-            <li>Used a custom PowerShell script to extract metadata from Windows Event Viewer to be forwarded to third party API in order to derive Geo-location data.</li>
-            <li>Configured Log Analytics Workspace in Azure to ingest custom logs containing geographic information (latitude, longitude, state, and country)</li>
-            <li>Configure Custom Fields in Log Analytics Workspace to map Geo-location data in Azure Sentinel.</li>
+            <li>Leveraged AWS Lex to develop a serverless Chat Bot while implementing AWS IAM for user roles and permissions. . </li>
+            <li>Integrated a Python AWS Lambda function to process user inputs and return responses, thereby validating the slots for the bot. AWS Lambda to provide slot validation using a custom Python script.</li>
+            <li>I utilized AWS S3 to host a static website for the menu and Kommunicate API for public use of the chat bot.</li>
           </div>
+          </div>
+          <hr />
 
 
 
@@ -185,15 +197,13 @@
           </div>
           <div class="yui-u">
             <h4>Weber State University - Ogden, UT</h4>
-            <h4>
-              BS in Criminal Justice
-            </h4>
+            <h4>BS in Criminal Justice</h4>
             <h4>Certified AWS Cloud Practioner</h4>
-      <h4>Comptia Security+</h4>
-      <h4>Comptia Network+</h4>
-      <h4>Comptia A+</h4>
-      <h4>ISC2 Certified in Cybersecurity</h4>
-      <h4>Rapid 7 Insight VM Certified Administrator</h4>
+            <h4>Comptia Security+</h4>
+            <h4>Comptia Network+</h4>
+            <h4>Comptia A+</h4>
+            <h4>ISC2 Certified in Cybersecurity</h4>
+            <h4>Rapid 7 Insight VM Certified Administrator</h4>
           </div>
         </div><!--// .class section -->
 
